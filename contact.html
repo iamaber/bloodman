@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Bloodman</title>
+    <link rel="icon" type="image/png" href="assets/bloodman-logo.png">
+    <link rel="apple-touch-icon" href="assets/bloodman-logo.png">
+    <meta name="description" content="Contact Bloodman for urgent blood requests, partnerships, volunteering, or Qurbani contributions.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <div class="site-shell">
+
+        <div class="top-bar">
+            <div class="container top-bar-inner">
+                <p>For urgent blood matters, call the hotline directly. For everything else, use the contact form below.</p>
+                <div class="top-bar-links">
+                    <a href="tel:+8801627260933">+880 1627 260933</a>
+                    <a href="mailto:info@bloodman.org">info@bloodman.org</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0LbAngYgEhbChUBOO2RM7obSquW6U60OpE1OqbmwCYLhreg/viewform?pli=1" target="_blank" rel="noreferrer" class="top-donate">Donate Now</a>
+                </div>
+            </div>
+        </div>
+
+        <header class="navbar">
+            <div class="container nav-container">
+                <a href="index.html" class="brand">
+                    <img src="assets/bloodman-logo.png" alt="Bloodman logo" class="brand-logo">
+                    <span class="brand-copy"><strong>Bloodman</strong></span>
+                    </a>
+                <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav id="primary-nav" class="site-nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li class="has-submenu">
+                            <a href="projects.html">Impact</a>
+                            <ul class="submenu">
+                                <li><a href="projects.html#our-work">Our Work</a></li>
+                                <li><a href="projects.html#program-tracks">Program Tracks</a></li>
+                                <li><a href="projects.html#partners-awards">Partners &amp; Awards</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="bulletin.html">Bulletin</a>
+                            <ul class="submenu">
+                                <li><a href="bulletin.html#news-events">News &amp; Events</a></li>
+                                <li><a href="bulletin.html#tv-coverage">TV Coverage</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="qurbani.html">Qurbani</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+
+            <!-- Page hero -->
+            <section class="page-hero">
+                <div class="container page-hero-grid">
+                    <div data-reveal>
+                        <p class="eyebrow">Contact</p>
+                        <h1>Reach Bloodman for urgent support or collaboration.</h1>
+                    </div>
+                    <div data-reveal>
+                        <p>The contact page routes people quickly to the right way of reaching the team — without searching through outdated layouts. For blood emergencies, always call the hotline first.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact layout -->
+            <section class="section">
+                <div class="container contact-layout">
+
+                    <!-- Direct details card -->
+                    <article class="surface-card contact-panel" data-reveal>
+                        <p class="card-kicker">Direct details</p>
+                        <h2>Coordination desk</h2>
+                        <ul class="contact-list">
+                            <li>
+                                <strong>Hotline</strong>
+                                <a href="tel:+8801627260933">+880 1627 260933</a>
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                <a href="mailto:info@bloodman.org">info@bloodman.org</a>
+                            </li>
+                            <li>
+                                <strong>Address</strong>
+                                <span>29, Sel Centre, West Panthapath, Bir Uttam Kazi Nuruzzaman Road, Dhaka-1205, Bangladesh</span>
+                            </li>
+                            <li>
+                                <strong>Facebook</strong>
+                                <a href="https://www.facebook.com/BloodmanBD/" target="_blank" rel="noreferrer">facebook.com/BloodmanBD</a>
+                            </li>
+                        </ul>
+
+                        <!-- Inline urgent CTA -->
+                        <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,220,200,0.08);">
+                            <p class="eyebrow" style="margin-bottom: 0.5rem;">Urgent blood request?</p>
+                            <a href="tel:+8801627260933" class="btn btn-primary" style="width:100%; margin-top: 0.5rem;">Call now: +880 1627 260933</a>
+                        </div>
+                    </article>
+
+                    <!-- Message form card -->
+                    <article class="surface-card" data-reveal>
+                        <p class="card-kicker">Message Bloodman</p>
+                        <h2>Send a note</h2>
+                        <form class="contact-form" data-contact-form>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6" placeholder="Tell us how we can help…" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send message</button>
+                            <p class="form-note" data-form-message aria-live="polite"></p>
+                        </form>
+                    </article>
+
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container footer-grid">
+                <div>
+                    <a href="index.html" class="brand footer-brand">
+                        <img src="assets/bloodman-logo.png" alt="Bloodman logo" class="brand-logo">
+                        
+                    </a>
+                    <p class="footer-about">Youth-led non-profit active since 2014. Blood donation, telemedicine, health camps, training, and relief across Bangladesh.</p>
+                </div>
+                <div>
+                    <p class="footer-label">Reach us</p>
+                    <a href="tel:+8801627260933">+880 1627 260933</a>
+                    <a href="mailto:info@bloodman.org">info@bloodman.org</a>
+                </div>
+                <div>
+                    <p class="footer-label">Navigate</p>
+                    <a href="services.html">Services</a>
+                    <a href="projects.html">Impact</a>
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+            <div class="container footer-bottom">
+                <p>&copy; 2026 Bloodman. All rights reserved.</p>
+                <div class="footer-socials">
+                    <a href="https://www.facebook.com/BloodmanBD/" target="_blank" rel="noreferrer" class="footer-social-link" aria-label="Facebook">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
