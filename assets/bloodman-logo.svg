@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 80" width="560" height="80">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&amp;display=swap');
+    </style>
+  </defs>
+  <text
+    x="280" y="60"
+    font-family="'Barlow', 'Arial', sans-serif"
+    font-size="60"
+    font-weight="700"
+    letter-spacing="6"
+    fill="#a8192c"
+    text-anchor="middle">BLOODMAN</text>
+</svg>
