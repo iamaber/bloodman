@@ -198,30 +198,6 @@ if (menuToggle && siteNav) {
     }, { passive: true });
 })();
 
-/* ─── Contact form ─────────────────────────────────────── */
-(function () {
-    const form    = document.querySelector("[data-contact-form]");
-    const message = document.querySelector("[data-form-message]");
-    if (!form || !message) return;
-
-    form.addEventListener("submit", (e) => {
-        e.preventDefault();
-        const btn = form.querySelector("[type=submit]");
-        if (btn) {
-            btn.disabled = true;
-            btn.textContent = "Sending…";
-        }
-        setTimeout(() => {
-            message.textContent = "Message received. For urgent blood requests, please call the hotline directly.";
-            form.reset();
-            if (btn) {
-                btn.disabled = false;
-                btn.textContent = "Send message";
-            }
-        }, 800);
-    });
-})();
-
 /* ─── Smooth anchor scroll ─────────────────────────────── */
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener("click", (e) => {
